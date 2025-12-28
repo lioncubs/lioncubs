@@ -1,0 +1,164 @@
+name: Update Starred Repositories
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Fetch and update starred repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          import re
+          import requests
+          from datetime import datetime
+
+          def format_number(num):
+              """Format number with commas for thousands"""
+              return f"{num:,}"
+
+          def fetch_starred_repos(username, token):
+              """Fetch all starred repositories with pagination"""
+              headers = {
+                  'Authorization': f'token {token}',
+                  'Accept': 'application/vnd.github.v3+json'
+              }
+              
+              all_repos = []
+              page = 1
+              per_page = 100  # Maximum per page
+              
+              while True:
+                  url = f'https://api.github.com/users/{username}/starred'
+                  params = {'page': page, 'per_page': per_page}
+                  
+                  try:
+                      response = requests.get(url, headers=headers, params=params)
+                      response.raise_for_status()
+                      repos = response.json()
+                      
+                      if not repos:
+                          break
+                      
+                      all_repos.extend(repos)
+                      
+                      # If we got fewer than per_page, we're on the last page
+                      if len(repos) < per_page:
+                          break
+                      
+                      page += 1
+                  except Exception as e:
+                      print(f"Error fetching starred repos: {e}")
+                      break
+              
+              return all_repos
+
+          def format_repos_as_markdown(repos):
+              """Format repositories as markdown list"""
+              # Sort by stars count (descending)
+              sorted_repos = sorted(repos, key=lambda x: x.get('stargazers_count', 0), reverse=True)
+              
+              # Limit to top 50
+              top_repos = sorted_repos[:50]
+              
+              markdown_lines = []
+              for repo in top_repos:
+                  name = repo.get('full_name', 'Unknown')
+                  url = repo.get('html_url', '')
+                  description = repo.get('description', 'No description')
+                  stars = format_number(repo.get('stargazers_count', 0))
+                  language = repo.get('language', '')
+                  
+                  # Format: - [owner/repo-name](url) ⭐ 1,234 - Description `Language`
+                  line = f"- [{name}]({url}) ⭐ {stars}"
+                  if description:
+                      line += f" - {description}"
+                  if language:
+                      line += f" `{language}`"
+                  
+                  markdown_lines.append(line)
+              
+              return '\n'.join(markdown_lines)
+
+          def update_readme(markdown_content):
+              """Update README.md between placeholder comments"""
+              readme_path = 'README.md'
+              
+              try:
+                  with open(readme_path, 'r', encoding='utf-8') as f:
+                      readme = f.read()
+                  
+                  # Pattern to match content between comments
+                  pattern = r'(<!-- STARS-LIST:START -->).*?(<!-- STARS-LIST:END -->)'
+                  
+                  # New content with placeholders
+                  new_content = f'<!-- STARS-LIST:START -->\n{markdown_content}\n<!-- STARS-LIST:END -->'
+                  
+                  # Replace the content
+                  updated_readme = re.sub(pattern, new_content, readme, flags=re.DOTALL)
+                  
+                  with open(readme_path, 'w', encoding='utf-8') as f:
+                      f.write(updated_readme)
+                  
+                  print("README.md updated successfully!")
+                  return True
+              except Exception as e:
+                  print(f"Error updating README: {e}")
+                  return False
+
+          # Main execution
+          username = 'lioncubs'
+          token = os.environ.get('GITHUB_TOKEN')
+          
+          if not token:
+              print("Error: GITHUB_TOKEN not found")
+              exit(1)
+          
+          print(f"Fetching starred repositories for {username}...")
+          repos = fetch_starred_repos(username, token)
+          print(f"Found {len(repos)} starred repositories")
+          
+          if repos:
+              markdown = format_repos_as_markdown(repos)
+              if update_readme(markdown):
+                  print("Update completed successfully!")
+              else:
+                  print("Failed to update README")
+                  exit(1)
+          else:
+              print("No starred repositories found")
+          EOF
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet README.md || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "🤖 Updated starred repositories"
+          git push
