@@ -22,16 +22,18 @@ jobs:
         with:
           python-version: '3.x'
       
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
       - name: Fetch and update starred repositories
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 << 'EOF'
-          import json
           import os
           import re
           import requests
-          from datetime import datetime
 
           def format_number(num):
               """Format number with commas for thousands"""
@@ -40,8 +42,9 @@ jobs:
           def fetch_starred_repos(username, token):
               """Fetch all starred repositories with pagination"""
               headers = {
-                  'Authorization': f'token {token}',
-                  'Accept': 'application/vnd.github.v3+json'
+                  'Authorization': f'Bearer {token}',
+                  'Accept': 'application/vnd.github+json',
+                  'X-GitHub-Api-Version': '2022-11-28'
               }
               
               all_repos = []
