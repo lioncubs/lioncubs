@@ -1,16 +1,25 @@
-## Hi there 👋
+# 👋 Hello, I'm Lioncubs!
 
-<!--
-**lioncubs/lioncubs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I'm passionate about coding, open source, and building amazing things.
 
-Here are some ideas to get you started:
+## 🚀 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 💻 Software Developer
+- 🌱 Always learning and exploring new technologies
+- ⭐ Love discovering and starring interesting projects
+- 🤝 Open to collaboration and new opportunities
+
+## 📫 Connect with Me
+
+Feel free to explore my repositories and don't hesitate to reach out!
+
+## ⭐ My Starred Repositories
+
+This list is automatically updated daily with my most starred repositories!
+
+<!-- STARS-LIST:START -->
+<!-- STARS-LIST:END -->
+
+---
+
+<sub>Last updated: Auto-updated by GitHub Actions</sub>
