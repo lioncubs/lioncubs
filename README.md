@@ -18,28 +18,28 @@ Feel free to explore my repositories and don't hesitate to reach out!
 This list is automatically updated daily with my most starred repositories!
 
 <!-- STARS-LIST:START -->
-- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐ 183,492 - Visual Studio Code `TypeScript`
-- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 111,615 - Public repository for Agent Skills `Python`
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 51,604 - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python`
-- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) ⭐ 42,054 - 🎥      Make videos programmatically with React `TypeScript`
-- [github/awesome-copilot](https://github.com/github/awesome-copilot) ⭐ 28,697 - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. `Python`
-- [pypa/pipenv](https://github.com/pypa/pipenv) ⭐ 25,095 -  Python Development Workflow for Humans. `Python`
-- [camel-ai/camel](https://github.com/camel-ai/camel) ⭐ 16,606 - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org `Python`
-- [helm/charts](https://github.com/helm/charts) ⭐ 15,429 - ⚠️(OBSOLETE) Curated applications for Kubernetes `Go`
-- [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) ⭐ 14,794 - A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. `Python`
-- [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) ⭐ 9,769 - Copilot Chat extension for VS Code `TypeScript`
-- [microsoft/agent-framework](https://github.com/microsoft/agent-framework) ⭐ 9,010 - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. `Python`
-- [github/copilot-sdk](https://github.com/github/copilot-sdk) ⭐ 8,253 - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services `TypeScript`
-- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) ⭐ 6,448 - Public documentation for Visual Studio Code `Markdown`
-- [devcontainers/spec](https://github.com/devcontainers/spec) ⭐ 5,310 - Development Containers: Use a container as a full-featured development environment.
-- [devcontainers/cli](https://github.com/devcontainers/cli) ⭐ 2,612 - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. `TypeScript`
-- [devcontainers/images](https://github.com/devcontainers/images) ⭐ 1,992 - Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers `Shell`
+- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐ 183,552 - Visual Studio Code `TypeScript`
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 112,336 - Public repository for Agent Skills `Python`
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 51,907 - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python`
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) ⭐ 42,198 - 🎥      Make videos programmatically with React `TypeScript`
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) ⭐ 28,849 - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. `Python`
+- [pypa/pipenv](https://github.com/pypa/pipenv) ⭐ 25,097 -  Python Development Workflow for Humans. `Python`
+- [camel-ai/camel](https://github.com/camel-ai/camel) ⭐ 16,621 - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org `Python`
+- [helm/charts](https://github.com/helm/charts) ⭐ 15,430 - ⚠️(OBSOLETE) Curated applications for Kubernetes `Go`
+- [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) ⭐ 14,832 - A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. `Python`
+- [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) ⭐ 9,772 - Copilot Chat extension for VS Code `TypeScript`
+- [microsoft/agent-framework](https://github.com/microsoft/agent-framework) ⭐ 9,096 - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. `Python`
+- [github/copilot-sdk](https://github.com/github/copilot-sdk) ⭐ 8,270 - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services `TypeScript`
+- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) ⭐ 6,449 - Public documentation for Visual Studio Code `Markdown`
+- [devcontainers/spec](https://github.com/devcontainers/spec) ⭐ 5,312 - Development Containers: Use a container as a full-featured development environment.
+- [devcontainers/cli](https://github.com/devcontainers/cli) ⭐ 2,615 - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. `TypeScript`
+- [devcontainers/images](https://github.com/devcontainers/images) ⭐ 1,995 - Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers `Shell`
 - [devcontainers/features](https://github.com/devcontainers/features) ⭐ 1,423 - A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own `Shell`
-- [devcontainers/templates](https://github.com/devcontainers/templates) ⭐ 1,371 - Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own! `Shell`
+- [devcontainers/templates](https://github.com/devcontainers/templates) ⭐ 1,373 - Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own! `Shell`
 - [vscode-kubernetes-tools/vscode-kubernetes-tools](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) ⭐ 754 - Kubernetes extension for Visual Studio Code `TypeScript`
 - [tecladocode/python-refresher](https://github.com/tecladocode/python-refresher) ⭐ 664 - A Python refresher section for all our courses `Python`
-- [bigguy345/Github-Copilot-Atlas](https://github.com/bigguy345/Github-Copilot-Atlas) ⭐ 428
-- [burkeholland/anvil](https://github.com/burkeholland/anvil) ⭐ 117 - Evidence-first coding agent for GitHub Copilot CLI `HTML`
+- [bigguy345/Github-Copilot-Atlas](https://github.com/bigguy345/Github-Copilot-Atlas) ⭐ 429
+- [burkeholland/anvil](https://github.com/burkeholland/anvil) ⭐ 118 - Evidence-first coding agent for GitHub Copilot CLI `HTML`
 - [mondaycom/agent-tool-protocol](https://github.com/mondaycom/agent-tool-protocol) ⭐ 93 - Agent Tool Protocol `TypeScript`
 - [Sentry01/Copilot-CLI-Harness](https://github.com/Sentry01/Copilot-CLI-Harness) ⭐ 5 - A harness that allows Copilot CLI to run continuosly while retaining project context in TDD over 350 test cases. `Python`
 - [Sentry01/Copilot-Template](https://github.com/Sentry01/Copilot-Template) ⭐ 4
