@@ -18,30 +18,30 @@ Feel free to explore my repositories and don't hesitate to reach out!
 This list is automatically updated daily with my most starred repositories!
 
 <!-- STARS-LIST:START -->
-- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐ 183,901 - Visual Studio Code `TypeScript`
-- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 118,061 - Public repository for Agent Skills `Python`
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 54,068 - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python`
-- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) ⭐ 43,474 - 🎥      Make videos programmatically with React `TypeScript`
-- [github/awesome-copilot](https://github.com/github/awesome-copilot) ⭐ 29,884 - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. `Python`
-- [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) ⭐ 27,343 - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK `TypeScript`
-- [pypa/pipenv](https://github.com/pypa/pipenv) ⭐ 25,085 -  Python Development Workflow for Humans. `Python`
-- [camel-ai/camel](https://github.com/camel-ai/camel) ⭐ 16,699 - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org `Python`
+- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐ 183,931 - Visual Studio Code `TypeScript`
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 118,959 - Public repository for Agent Skills `Python`
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 54,321 - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python`
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) ⭐ 43,613 - 🎥      Make videos programmatically with React `TypeScript`
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) ⭐ 30,075 - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. `Python`
+- [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) ⭐ 27,395 - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK `TypeScript`
+- [pypa/pipenv](https://github.com/pypa/pipenv) ⭐ 25,086 -  Python Development Workflow for Humans. `Python`
+- [camel-ai/camel](https://github.com/camel-ai/camel) ⭐ 16,709 - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org `Python`
 - [helm/charts](https://github.com/helm/charts) ⭐ 15,426 - ⚠️(OBSOLETE) Curated applications for Kubernetes `Go`
-- [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) ⭐ 15,086 - A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. `Python`
-- [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) ⭐ 9,806 - Copilot Chat extension for VS Code `TypeScript`
-- [microsoft/agent-framework](https://github.com/microsoft/agent-framework) ⭐ 9,479 - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. `Python`
-- [github/copilot-sdk](https://github.com/github/copilot-sdk) ⭐ 8,408 - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services `TypeScript`
+- [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) ⭐ 15,111 - A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. `Python`
+- [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) ⭐ 9,816 - Copilot Chat extension for VS Code `TypeScript`
+- [microsoft/agent-framework](https://github.com/microsoft/agent-framework) ⭐ 9,516 - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. `Python`
+- [github/copilot-sdk](https://github.com/github/copilot-sdk) ⭐ 8,427 - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services `TypeScript`
 - [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) ⭐ 6,461 - Public documentation for Visual Studio Code `Markdown`
-- [devcontainers/spec](https://github.com/devcontainers/spec) ⭐ 5,345 - Development Containers: Use a container as a full-featured development environment.
-- [devcontainers/cli](https://github.com/devcontainers/cli) ⭐ 2,634 - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. `TypeScript`
+- [devcontainers/spec](https://github.com/devcontainers/spec) ⭐ 5,347 - Development Containers: Use a container as a full-featured development environment.
+- [devcontainers/cli](https://github.com/devcontainers/cli) ⭐ 2,637 - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. `TypeScript`
 - [devcontainers/images](https://github.com/devcontainers/images) ⭐ 2,003 - Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers `Shell`
-- [onecli/onecli](https://github.com/onecli/onecli) ⭐ 1,786 - Open-source credential vault, give your AI agents access to services without exposing keys. `TypeScript`
-- [devcontainers/features](https://github.com/devcontainers/features) ⭐ 1,428 - A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own `Shell`
+- [onecli/onecli](https://github.com/onecli/onecli) ⭐ 1,791 - Open-source credential vault, give your AI agents access to services without exposing keys. `TypeScript`
+- [devcontainers/features](https://github.com/devcontainers/features) ⭐ 1,429 - A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own `Shell`
 - [devcontainers/templates](https://github.com/devcontainers/templates) ⭐ 1,381 - Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own! `Shell`
 - [vscode-kubernetes-tools/vscode-kubernetes-tools](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) ⭐ 754 - Kubernetes extension for Visual Studio Code `TypeScript`
 - [tecladocode/python-refresher](https://github.com/tecladocode/python-refresher) ⭐ 663 - A Python refresher section for all our courses `Python`
-- [bigguy345/Github-Copilot-Atlas](https://github.com/bigguy345/Github-Copilot-Atlas) ⭐ 438
-- [burkeholland/anvil](https://github.com/burkeholland/anvil) ⭐ 126 - Evidence-first coding agent for GitHub Copilot CLI `HTML`
+- [bigguy345/Github-Copilot-Atlas](https://github.com/bigguy345/Github-Copilot-Atlas) ⭐ 440
+- [burkeholland/anvil](https://github.com/burkeholland/anvil) ⭐ 128 - Evidence-first coding agent for GitHub Copilot CLI `HTML`
 - [mondaycom/agent-tool-protocol](https://github.com/mondaycom/agent-tool-protocol) ⭐ 94 - Agent Tool Protocol `TypeScript`
 - [Sentry01/AgentCouncil](https://github.com/Sentry01/AgentCouncil) ⭐ 7 - AgentCouncil - Using Collaborative or Adverserial multi agent (from different model providers) to get more trustworthy result with GitHub Copilot CLI.
 - [Sentry01/Copilot-CLI-Harness](https://github.com/Sentry01/Copilot-CLI-Harness) ⭐ 5 - A harness that allows Copilot CLI to run continuosly while retaining project context in TDD over 350 test cases. `Python`
