@@ -18,24 +18,24 @@ Feel free to explore my repositories and don't hesitate to reach out!
 This list is automatically updated daily with my most starred repositories!
 
 <!-- STARS-LIST:START -->
-- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐ 184,988 - Visual Studio Code `TypeScript`
-- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 135,813 - Public repository for Agent Skills `Python`
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 60,148 - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python`
-- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) ⭐ 47,074 - 🎥      Make videos programmatically with React `TypeScript`
-- [github/awesome-copilot](https://github.com/github/awesome-copilot) ⭐ 33,139 - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. `Python`
-- [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) ⭐ 28,937 - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK `TypeScript`
+- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐ 185,020 - Visual Studio Code `TypeScript`
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 136,313 - Public repository for Agent Skills `Python`
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 60,311 - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python`
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) ⭐ 47,152 - 🎥      Make videos programmatically with React `TypeScript`
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) ⭐ 33,206 - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. `Python`
+- [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) ⭐ 28,972 - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK `TypeScript`
 - [pypa/pipenv](https://github.com/pypa/pipenv) ⭐ 25,078 -  Python Development Workflow for Humans. `Python`
-- [camel-ai/camel](https://github.com/camel-ai/camel) ⭐ 16,970 - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org `Python`
-- [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) ⭐ 15,695 - A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. `Python`
+- [camel-ai/camel](https://github.com/camel-ai/camel) ⭐ 16,977 - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org `Python`
+- [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) ⭐ 15,731 - A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. `Python`
 - [helm/charts](https://github.com/helm/charts) ⭐ 15,416 - ⚠️(OBSOLETE) Curated applications for Kubernetes `Go`
-- [microsoft/agent-framework](https://github.com/microsoft/agent-framework) ⭐ 10,484 - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. `Python`
-- [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) ⭐ 9,929 - Copilot Chat extension for VS Code `TypeScript`
-- [github/copilot-sdk](https://github.com/github/copilot-sdk) ⭐ 8,675 - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services `Rust`
-- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) ⭐ 6,512 - Public documentation for Visual Studio Code `Markdown`
-- [devcontainers/spec](https://github.com/devcontainers/spec) ⭐ 5,424 - Development Containers: Use a container as a full-featured development environment.
-- [devcontainers/cli](https://github.com/devcontainers/cli) ⭐ 2,703 - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. `TypeScript`
-- [onecli/onecli](https://github.com/onecli/onecli) ⭐ 2,172 - Open-source credential vault, give your AI agents access to services without exposing keys. `TypeScript`
-- [devcontainers/images](https://github.com/devcontainers/images) ⭐ 2,028 - Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers `Shell`
+- [microsoft/agent-framework](https://github.com/microsoft/agent-framework) ⭐ 10,502 - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. `Python`
+- [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) ⭐ 9,927 - Copilot Chat extension for VS Code `TypeScript`
+- [github/copilot-sdk](https://github.com/github/copilot-sdk) ⭐ 8,681 - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services `Rust`
+- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) ⭐ 6,514 - Public documentation for Visual Studio Code `Markdown`
+- [devcontainers/spec](https://github.com/devcontainers/spec) ⭐ 5,428 - Development Containers: Use a container as a full-featured development environment.
+- [devcontainers/cli](https://github.com/devcontainers/cli) ⭐ 2,707 - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. `TypeScript`
+- [onecli/onecli](https://github.com/onecli/onecli) ⭐ 2,187 - Open-source credential vault, give your AI agents access to services without exposing keys. `TypeScript`
+- [devcontainers/images](https://github.com/devcontainers/images) ⭐ 2,030 - Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers `Shell`
 - [devcontainers/features](https://github.com/devcontainers/features) ⭐ 1,452 - A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own `Shell`
 - [devcontainers/templates](https://github.com/devcontainers/templates) ⭐ 1,392 - Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own! `Shell`
 - [vscode-kubernetes-tools/vscode-kubernetes-tools](https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools) ⭐ 757 - Kubernetes extension for Visual Studio Code `TypeScript`
@@ -43,7 +43,7 @@ This list is automatically updated daily with my most starred repositories!
 - [bigguy345/Github-Copilot-Atlas](https://github.com/bigguy345/Github-Copilot-Atlas) ⭐ 453
 - [burkeholland/anvil](https://github.com/burkeholland/anvil) ⭐ 143 - Evidence-first coding agent for GitHub Copilot CLI `HTML`
 - [mondaycom/agent-tool-protocol](https://github.com/mondaycom/agent-tool-protocol) ⭐ 96 - Agent Tool Protocol `TypeScript`
-- [Sentry01/AgentCouncil](https://github.com/Sentry01/AgentCouncil) ⭐ 7 - AgentCouncil - Using Collaborative or Adverserial multi agent (from different model providers) to get more trustworthy result with GitHub Copilot CLI.
+- [Sentry01/AgentCouncil](https://github.com/Sentry01/AgentCouncil) ⭐ 8 - AgentCouncil - Using Collaborative or Adverserial multi agent (from different model providers) to get more trustworthy result with GitHub Copilot CLI.
 - [Sentry01/Copilot-CLI-Harness](https://github.com/Sentry01/Copilot-CLI-Harness) ⭐ 5 - A harness that allows Copilot CLI to run continuosly while retaining project context in TDD over 350 test cases. `Python`
 - [lioncubs/test-copilot-prompts-extension](https://github.com/lioncubs/test-copilot-prompts-extension) ⭐ 1 - This is a trial repo to test creation of a generic extension with copilot prompts `TypeScript`
 <!-- STARS-LIST:END -->
